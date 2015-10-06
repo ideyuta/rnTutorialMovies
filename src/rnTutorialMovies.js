@@ -62,7 +62,6 @@ export default class rnTutorialMovies extends React.Component {
    * 各種 Store から state に必要な情報を取得、整形して返す
    *
    * @return {Object}
-   * @todo 一旦ダミーデータを使用する
    */
   getStateFromStore() {
     const app = AppStore.getAll();
